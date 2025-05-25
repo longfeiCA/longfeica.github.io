@@ -1,16 +1,17 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: This is a great template to start with :)
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hmm...OK
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+##### Errr... That doesn't seem right ?!
 
-What else do you need?
+#### Oh...no
 
-### My story
+### Hello? Bye? Bye!
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+## ... (Slowly recovering...)
+
+# Now... What?
