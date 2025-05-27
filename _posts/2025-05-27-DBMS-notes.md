@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Course Notes - Relational Database Management System
-subtitle: "Relational DBMS Course – Database Concepts, Design & Querying Tutorial" provided by freeCodeCamp.org
+subtitle: Relational DBMS Course – Database Concepts, Design & Querying Tutorial provided by freeCodeCamp.org
 tags: [SQL][Database][DBMS]
 comments: false
 mathjax: false
