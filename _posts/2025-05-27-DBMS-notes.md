@@ -2,7 +2,7 @@
 layout: post
 title: Course Notes on RDBMS (Relational Database Management System)
 subtitle: Database Concepts, Design & Querying Tutorial provided by freeCodeCamp.org
-tags: [SQL, Database, DBMS]
+tags: [SQL, database, DBMS]
 comments: false
 mathjax: false
 author: Longfei Jiao
