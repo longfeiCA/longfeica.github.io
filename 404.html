@@ -1,13 +1,72 @@
 ---
 layout: default
-title: 404 - Page not found
+title: 404 - Page Not Found
 permalink: /404.html
 ---
 
-<div class="text-center">
-  <h1>Whoops, this page doesn't exist.</h1>
-  <h1>Move along. There's more to be found! (404 error)</h1>
-  <br/>
+<style>
+  .notfound-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh; 
+    text-align: center;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #333;
+  }
 
-  <img src="{{ 'assets/img/404-southpark.jpg' | relative_url }}" alt="Not found" />
+  .notfound-icon {
+    width: 100px; 
+    height: 100px;
+    margin-bottom: 30px;
+    color: #007bff; 
+  }
+
+  .notfound-title {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #222;
+  }
+
+  .notfound-message {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 500px;
+    color: #555;
+  }
+
+  .notfound-button {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .notfound-button:hover {
+    background-color: #0056b3; 
+  }
+
+</style>
+
+<div class="notfound-container">
+  <svg class="notfound-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5zm10.016.75a.75.75 0 00.75-.75V9a.75.75 0 00-1.5 0v.75A.75.75 0 0111.25 9h.75a.75.75 0 01.75.75v.75a.75.75 0 001.5 0v-.75a2.25 2.25 0 00-2.25-2.25h-.75a2.25 2.25 0 00-2.25 2.25V10.5c0 .619.246 1.202.703 1.645.05.046.103.088.158.127l.001.001a.754.754 0 00.588.278H12a.75.75 0 00.75-.75.75.75 0 00-.75-.75h-.75a.75.75 0 01-.261-.05l-.003-.001a.73.73 0 01-.22-.152.75.75 0 01-.216-.544V10.5c0-.016.002-.032.005-.048a.75.75 0 00.75.798zM12 13.5a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z" clip-rule="evenodd" />
+  </svg>
+
+  <h1 class="notfound-title">Oops! Page Not Found</h1>
+  <p class="notfound-message">
+    It seems the page you were looking for doesn't exist, or perhaps it moved.
+    Don't worry, let's get you back on track!
+  </p>
+  <a href="{{ '/' | relative_url }}" class="notfound-button">Go to Homepage</a>
 </div>
