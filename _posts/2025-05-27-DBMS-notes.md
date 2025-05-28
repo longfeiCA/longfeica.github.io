@@ -142,5 +142,7 @@ Recovery & Deadlocks
 # Course Resources
 
 [Youtube Video](https://www.youtube.com/watch?v=NdeeSEknp58)
+
 [Complete Resource Pack & Outline](https://rdbms-resource-pack-650qinf.gamma.site/)
+
 [Details of the course - Unit 1-5](https://pravin-hub-rgb.github.io/BCA/resources/sem3/dbmstbc302/index.html)
