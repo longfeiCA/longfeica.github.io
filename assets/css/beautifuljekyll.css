@@ -1010,6 +1010,8 @@ pre {
   margin: 0 0 1.25rem;
   font-size: 1.1rem;
   border-left: 0.3125rem solid #eee;
+  /* Fix single line rendering of block quotes */
+  white-space: normal;
 }
 
 .blog-post blockquote p:last-child {
