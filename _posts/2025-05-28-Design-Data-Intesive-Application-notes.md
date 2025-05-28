@@ -6,6 +6,7 @@ tags: [backend, system design]
 comments: false
 mathjax: false
 author: Longfei Jiao
+last-updated: 2025-05-28
 ---
 
 # [Full Notes](https://github.com/longfeiCA/notes-designing-data-intensive-applications/)
