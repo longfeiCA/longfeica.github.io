@@ -132,6 +132,52 @@ Recovery & Deadlocks
 
     Logging, checkpointing for recovery; detection and prevention of deadlocks.
 
+# Full Notes
+
+## Unit 1: Introduction 
+
+### Data
+
+Data consists of raw unorganized facts and details. This includes texts， figures, observations, symbols, and description. It is meaningless until processed. Data may provide information after being processed. 
+
+### Database
+
+Database is a electronic storage where data is stored in a way that it can be easily accessed, managed, and updated. 
+
+### DBMS
+
+#### Definition
+
+Database Management System (DBMS) is a collection of interrelated data and a set of programs to access those data. 
+
+#### Purpose
+
+* Data Integrity: DBMS ensures data consistency and accuracy. 
+* Data Security: DBMS provides security features to protect data from unauthorized access, ensuring confidentiality and integrity. 
+* Data Access: DBMS allows easy access and retrieval of data. 
+
+### File System
+
+Concurrency and security is limited in FS compared to DBMS. DBMS also offers better structured data management, transactions, and scalability. 
+
+### How to choose a database?
+
+If you need a strictly tabular structured data, RDBMS is the best choice. However, if you need better performance, scalability, or special cases, then columnar, key-value, graph, or document-oriented databases can be good alternatives. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
