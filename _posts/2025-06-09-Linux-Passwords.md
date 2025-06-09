@@ -75,7 +75,7 @@ Here is the meaning of each colon-separated field:
 |Field# | Value | Meaning |
 |------|-------|---------|
 |1| jlf | Username: This entry belongs to the user account named jlf. |
-|2| $y$j9T$eF2.Wimpc6fzSdrdzvHge.$95sMQszTzgx37mKyQWJghVKcrqSo45m92HRcEEBDDH6 | Password Hash: This is the encrypted password information. This particular format indicates it's using the yescrypt algorithm, which is a modern, memory-hard hashing function designed to be resistant to GPU and ASIC-based attacks. |
+|2| $y$j9T$eF2.Wi<br>mpc6fzSdrdzvH<br>ge.$95sMQszTz<br>gx37mKyQWJgh<br>VKcrqSo45m92<br>HRcEEBDDH6 | Password Hash: This is the encrypted password information. This particular format indicates it's using the yescrypt algorithm, which is a modern, memory-hard hashing function designed to be resistant to GPU and ASIC-based attacks. |
 |3| 20247 | Last Password Change: The date the password was last changed, expressed as the number of days since the Unix Epoch (January 1, 1970). The value 20247 corresponds to June 8, 2025. |
 |4| 0 | Minimum Password Age: The minimum number of days that must pass before the user is allowed to change their password again. A value of 0 means they can change it at any time. |
 |5| 99999 | Maximum Password Age: The maximum number of days the password is valid. The value 99999 is a convention that means the password never expires. |
