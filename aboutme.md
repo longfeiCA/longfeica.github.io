@@ -1,17 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: This is a great template to start with :)
+subtitle: Hello! 
 ---
 
-Hmm...OK
-
-##### Errr... That doesn't seem right ?!
-
-#### Oh...no
-
-### Hello? Bye? Bye!
-
-## ... (Slowly recovering...)
-
-# Now... What?
+# What do you want to learn about me?
