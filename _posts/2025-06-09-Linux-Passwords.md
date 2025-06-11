@@ -2,7 +2,7 @@
 layout: post
 title: How Linux System Stores User Passwords
 subtitle: Hashing, Salting, Fast and Low Hashing Algorithm
-tags: [Security, Hashing, Salting, Operating System]
+tags: [Security, Hashing, Salting, Operating System, Linux]
 comments: false
 mathjax: false
 author: Longfei Jiao
