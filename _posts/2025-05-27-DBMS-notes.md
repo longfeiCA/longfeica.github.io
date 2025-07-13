@@ -15,7 +15,7 @@ last-updated: 2025-06-02
 
 ## Unit 1: Introduction 
 
-    An overview of database management system, Database System Vs File System, Database system concepts, data models. Advantages of DBMS, Schema and instances, Three schema architecture, data independence. Data base languages and interfaces, Disadvantages of DBMS.
+    An overview of database management system. Database System Vs File System, Database system concepts, data models. Advantages of DBMS, Schema and instances, Three schema architecture, data independence. Database languages and interfaces, Disadvantages of DBMS.
     
 Data modeling using the Entity Relationship Model:
 
@@ -73,7 +73,7 @@ Expressive Power
 
 ## Unit 3: Introduction to SQL
 
-    Characteristics of SQL, Advantages of SQL, SQL data types and literals, Types of SQL commands, SQL operators and their procedure, Tables, views and indexes, Insert, update and delete operations, Queries and sub queries, Scalar and Aggregate functions, Joins, Unions, Intersection, Minus.
+    Characteristics of SQL, Advantages of SQL, SQL data types and literals, Types of SQL commands, SQL operators and their precedence, Tables, views and indexes, Insert, update and delete operations, Queries and sub queries, Scalar and Aggregate functions, Joins, Unions, Intersection, Minus.
 
 Core Commands
 
@@ -91,7 +91,7 @@ Advanced Features
 
 ## Unit 4: Schema Refinement and Normalization
 
-    Functional dependencies, normal forms, first, second, third normal forms, BCNF, inclusion dependencies, loss less join decompositions, normalization using FD, MVD, and JDs.
+    Functional dependencies, normal forms, first, second, third normal forms, BCNF, inclusion dependencies, lossless join decompositions, normalization using FD, MVD, and JDs.
 
 Functional Dependencies
 
@@ -111,7 +111,7 @@ Decomposition Benefits
 
 ## Unit 5: Transaction Management and Concurrency Control
 
-    Transaction system, Testing of serializability, Serializability of schedules, conflict and view serializable schedule, recoverability, Recovery form transaction failures, deadlock handling. Concurrency Control Techniques: Concurrency control, locking Techniques for concurrency control.
+    Transaction system, Testing of serializability, Serializability of schedules, conflict and view serializable schedule, recoverability, Recovery from transaction failures, deadlock handling. Concurrency Control Techniques: Concurrency control, locking Techniques for concurrency control.
 
 ACID Principles
 
@@ -138,11 +138,11 @@ Recovery & Deadlocks
 
 ### Data
 
-Data consists of raw unorganized facts and details. This includes texts， figures, observations, symbols, and description. It is meaningless until processed. Data may provide information after being processed. 
+Data consists of raw unorganized facts and details. This includes texts, figures, observations, symbols, and description. It is meaningless until processed. Data may provide information after being processed. 
 
 ### Database
 
-Database is a electronic storage where data is stored in a way that it can be easily accessed, managed, and updated. 
+Database is an electronic storage where data is stored in a way that it can be easily accessed, managed, and updated. 
 
 ### DBMS
 
@@ -163,18 +163,6 @@ Concurrency and security is limited in FS compared to DBMS. DBMS also offers bet
 ### How to choose a database?
 
 If you need a strictly tabular structured data, RDBMS is the best choice. However, if you need better performance, scalability, or special cases, then columnar, key-value, graph, or document-oriented databases can be good alternatives. 
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

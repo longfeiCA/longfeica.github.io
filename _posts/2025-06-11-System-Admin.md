@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Linux System Administrator Roadmap
-subtitle: And why these knowledge is essential for backend developers as well!
-tags: [Linux, Operating System, Devops]
+subtitle: And why this knowledge is essential for backend developers as well!
+tags: [Linux, Operating System, DevOps]
 comments: false
 mathjax: false
 author: Longfei Jiao

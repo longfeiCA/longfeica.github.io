@@ -64,7 +64,7 @@ Passwords are saved in the /etc/shadow file using a secure, one-way process invo
 
 /etc/passwd is world-readable, meaning any user on the system can see its contents. Storing password information there, even encrypted, is a major security risk. The /etc/shadow file was created to solve this. It is only readable by the root user and members of the shadow group. This prevents regular users from accessing the encrypted password data.
 
-In addition, A unique, random salt for every user is added after the user's password before going through the hashing algorithm. Now, even if two users have the same password, their stored hashes will be completely different because their salts are different. This makes rainbow table attacks ineffective.
+In addition, a unique, random salt for every user is added after the user's password before going through the hashing algorithm. Now, even if two users have the same password, their stored hashes will be completely different because their salts are different. This makes rainbow table attacks ineffective.
 
 **Example of a user's password in /etc/shadow**
 
@@ -105,7 +105,7 @@ Without salting, multiple users with the same passwords will have the same hash 
 
 Adding a salt for every user does not consume more computing power for the user, but it makes the rainbow table completely useless. 
 
-If the hacker wants the crack the password by brute force, they need to calculate each password + unique salt for every user, which makes their attack much less effective. 
+If the hacker wants to crack the password by brute force, they need to calculate each password + unique salt for every user, which makes their attack much less effective. 
 
 ## Why use yescrypt instead of sha256 algorithm?
 
@@ -119,6 +119,6 @@ The **Work Factor** makes the calculation of the algorithm artificially slow. Th
 
 A modern GPU or GPU may calculate 1 billion hashes per second. Even with a salt, the hacker can try 1 billion possible passwords for a user per second (using a fast hashing algorithm). 
 
-However, if we adjust the work factor in a slow hashing algorithm so that one hash costs 0.25 second for a single core CPU, the hacker with a modern GPU (let'say, it has 2000 times more computing power than a single CPU). It can only try 2000*4 = 8000 passwords per second. In order to try 1 billion passwords, it will take 1B/8kps = 125000 seconds = 34.7 hours! This is the computing time for a single user with no guarantee that a match will be found. 
+However, if we adjust the work factor in a slow hashing algorithm so that one hash costs 0.25 second for a single core CPU, the hacker with a modern GPU (let's say, it has 2000 times more computing power than a single CPU) can only try 2000*4 = 8000 passwords per second. In order to try 1 billion passwords, it will take 1B/8kps = 125000 seconds = 34.7 hours! This is the computing time for a single user with no guarantee that a match will be found. 
 
 With an unnoticeable 0.25 second delay each time the user logs in, the hacker's computing time surged from 1 second to 34.7 hours. 
